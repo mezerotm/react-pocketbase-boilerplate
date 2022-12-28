@@ -1,0 +1,4 @@
+.ignore.d/
+webapp/node_modules/
+webapp/server/pb_data/
+webapp/server/pocketbase
