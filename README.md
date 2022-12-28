@@ -4,7 +4,7 @@ React based frontend with Pocketbase backend
 
 ## Table of Contents
 
-- [tcm-cmp](#tcm-x-runpod)
+- [react-pocketbase-boilerplate](#react-pocketbase-boilerplate)
   - [Table of Contents](#table-of-contents)
   - [Install](#install)
   - [Maintainers](#maintainers)
