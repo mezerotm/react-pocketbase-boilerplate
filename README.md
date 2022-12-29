@@ -38,6 +38,7 @@ npm --prefix webapp run dev
 ## Contributors
 
 Ian Gerard
+
 Mark Jackson
 
 ## Maintainers
