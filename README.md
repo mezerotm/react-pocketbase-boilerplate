@@ -35,6 +35,11 @@ npm --prefix webapp install
 npm --prefix webapp run dev
 ```
 
+## Contributors
+
+Ian Gerard
+Mark Jackson
+
 ## Maintainers
 
 [@mezerotm](https://github.com/mezerotm)
