@@ -31,9 +31,9 @@ const ConfirmEmail = () => {
       <p>We sent an email to {user.email}</p>
       <p className='text-xs text-gray-400'>Didn&apos;t receive the email? <a onClick={() => requestVerification.refetch()} className='text-blue-500 underline cursor-pointer'>Click here to send it again</a></p>
       {
-        requestVerification.status === 'loading' && requestVerification.fetchStatus === 'idle'
+        requestVerification.fetchStatus === 'idle'
           ? <div>Idle</div>
-          : requestVerification.fetchStatus === 'fetching'
+          : requestVerification.status === 'loading' || requestVerification.fetchStatus === 'fetching'
             ? <div>Loading</div>
             : requestVerification.status === 'error'
               ? <div>{requestVerification.error}</div>
